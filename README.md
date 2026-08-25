@@ -29,17 +29,17 @@ Free the host memory: Deallocate the memory that was previously allocated on the
 Reset the device: Reset the device using cudaDeviceReset to ensure that all resources are cleaned up before the program exits.
 
 ## PROGRAM and OUTPUT:
-```
+
 !nvidia-smi
-```
+
 <img width="920" height="421" alt="image" src="https://github.com/user-attachments/assets/d21ed5e0-03c1-4651-8072-98dcab24bc6a" />
-```
+
 !pip install nvcc4jupyter
-```
+
 <img width="695" height="112" alt="image" src="https://github.com/user-attachments/assets/77bb9eb2-74da-4c6d-8d78-db2c35ebd0f2" />
-```
+
 %load_ext nvcc4jupyter
-```
+
 <img width="518" height="72" alt="image" src="https://github.com/user-attachments/assets/a10bc406-d330-4e09-aeae-14925c1f9800" />
 
 %%cuda
